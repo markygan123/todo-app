@@ -24,7 +24,11 @@ main {
     background: #6c809a;
     color: #ffffff;
     overflow-y: auto;
-}
+    border-radius: 15px;
+    -webkit-box-shadow: 11px 13px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 13px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 11px 13px 16px 0px rgba(0,0,0,0.75);
+    }
 
 .todo {
     width: 870px;
