@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #7ae7c7;
+}
+
+main {
+    width: 960px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background: #6c809a;
+    color: #ffffff;
+    overflow-y: auto;
+}
+
+.todo {
+    width: 870px;
+    height: 750px;
+}
+
+.todo__header {
+    text-align: center;
+    padding: 20px;
+}
+
+.todo__title {
+    padding: 20px;
+}
+
+.todo__input {
+    width: 100%;
+    padding: 25px 20px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    color: #6e675f;
+}
+
+.todo__list {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.todo__item {
+    list-style-type: none;
+    padding: 15px 20px;
+    border-bottom: 2px solid #e3b23c;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s all ease-in-out;
+}
+
+.todo__item:hover {
+    cursor: default;
+    background-color: #434f5e;
+}
+
+.done {
+    color: #6e675f;
+    border-bottom: 2px solid #a6832e;
+}
