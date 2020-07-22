@@ -1,3 +1,5 @@
+/* MAIN STYLES */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +30,9 @@ main {
     -webkit-box-shadow: 11px 13px 16px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 11px 13px 16px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 11px 16px 0px rgba(0,0,0,0.75);
-    }
+}
+
+/* BODY STYLES */
 
 .todo {
     width: 870px;
@@ -77,6 +81,7 @@ main {
     color: #ffffff;
 }
 
+/* TRIGGERS WHEN A TASK IS CLICKED */
 .done {
     color: #6e675f;
     border-bottom: 2px solid #a6832e;
