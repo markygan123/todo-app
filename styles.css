@@ -73,6 +73,10 @@ main {
     background-color: #434f5e;
 }
 
+.fa-times {
+    color: #ffffff;
+}
+
 .done {
     color: #6e675f;
     border-bottom: 2px solid #a6832e;
