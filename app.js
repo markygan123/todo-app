@@ -2,7 +2,7 @@ const todoInput = document.querySelector(".todo__input");
 const todoList = document.querySelector(".todo__list");
 const todos = document.querySelectorAll("todo__item");
 
-function enterNewTask() {
+let enterNewTask = () => {
     todoInput.addEventListener("keypress", function (e) {
         if (e.key === "Enter") {
             let latestTask = addNewTask(todoInput.value);
@@ -12,7 +12,7 @@ function enterNewTask() {
     });
 }
 
-function addNewTask(text) {
+let addNewTask = (text) => {
     let newTask = document.createElement("li");
 
     newTask.innerHTML = text;
@@ -27,7 +27,7 @@ function addNewTask(text) {
     return newTask;
 }
 
-function taskHover(item, button) {
+let taskHover = (item, button) => {
     item.addEventListener("mouseover", function() {
         button.style.display = "block";
     });
@@ -37,13 +37,13 @@ function taskHover(item, button) {
     });
 }
 
-function removeTask(item, button) {
+let removeTask = (item, button)  => {
     button.addEventListener("click", function() {
         todoList.removeChild(item);
     })
 }
 
-function doneTask(item) {
+let doneTask = (item) => {
     item.addEventListener("click", function (e) {
         item.classList.toggle("done");
     });
