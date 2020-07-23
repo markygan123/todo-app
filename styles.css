@@ -70,6 +70,7 @@ main {
     display: flex;
     justify-content: space-between;
     transition: 0.2s all ease-in-out;
+    position: relative;
 }
 
 .todo__item:hover {
@@ -79,6 +80,9 @@ main {
 
 .fa-times {
     color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    right: 20px;
 }
 
 /* TRIGGERS WHEN A TASK IS CLICKED */
