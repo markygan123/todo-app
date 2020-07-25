@@ -1,6 +1,6 @@
 const todoInput = document.querySelector(".todo__input");
 const todoList = document.querySelector(".todo__list");
-const todos = document.querySelectorAll("todo__item");
+// const todos = document.querySelectorAll("todo__item");
 
 let enterNewTask = () => {
     todoInput.addEventListener("keypress", function (e) {
