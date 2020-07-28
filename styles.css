@@ -83,6 +83,7 @@ main {
     position: absolute;
     z-index: 10;
     right: 20px;
+    transition: 0.2s all ease;
 }
 
 .fa-times:hover {
