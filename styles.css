@@ -87,6 +87,7 @@ main {
 
 .fa-times:hover {
     cursor: pointer;
+    transform: scale(1.3);
 }
 
 /* TRIGGERS WHEN A TASK IS CLICKED */
