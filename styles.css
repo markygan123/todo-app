@@ -97,3 +97,16 @@ main {
     border-bottom: 2px solid #a6832e;
     text-decoration: line-through;
 }
+
+
+@media (max-width: 1366px) {
+    main {
+        width: 768px;
+        height: 560px;
+    }
+
+    .todo {
+        width: 700px;
+        height: 500px;
+    }
+}
